@@ -26,6 +26,9 @@ $(call inherit-product, vendor/cna/configs/apns.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Release name
+PRODUCT_RELEASE_NAME := Nexus4
+
 PRODUCT_NAME := full_mako
 PRODUCT_DEVICE := mako
 PRODUCT_BRAND := google
